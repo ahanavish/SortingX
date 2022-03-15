@@ -3,14 +3,44 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: #2b2828;
   font-family: Verdana, sans-serif;
+}
+
+.nav {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px 0 25px;
+  background-color: rgb(189, 208, 211);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1);
+
+}
+
+.nav .links a {
+  margin-right: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+
+.nav h1 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 25px;
 }
 
 .main-header {
   padding: 5px;
   text-align: center;
-  background: #0598a8;
+  background: #343436;
   color: white;
   font-size: 20px;
 }
@@ -24,9 +54,9 @@ body {
 
 .btn {
   padding: 12px;
-  background-color: #75afb4;
+  background-color: white;
   border-radius: 10px;
-  color: white;
+  color: #050e0f83;
   font-size: 16px;
   border: white;
   margin-left: 15vw;
@@ -40,11 +70,12 @@ body {
 }
 
 .header {
-  padding: 2px;
+  padding: 1px;
+  margin-bottom: 20px;
   text-align: center;
   background: #0598a8;
   color: white;
-  font-size: 15px;
+  font-size: 10px;
 }
 
 .data-container {
@@ -90,4 +121,74 @@ body {
 #ele {
   text-align: center;
   height: 35px;
+}
+
+.landingText{
+  padding: 14px;
+  color: white;
+  font-size: 17px;
+  border: white;
+  margin-left: 14vw;
+  margin-right: 40vw;
+  margin-top: 10vw;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.landingImage{
+  padding: 15px;
+  margin-top: 10vw;
+  margin-left: -35vw;
+  margin-right: 4vw;
+}
+
+.landingPara{
+  padding: 10px;
+  color: white;
+  font-size: 15px;
+  margin-left: 14vw;
+  margin-right: 14vw;
+  margin-top: 0vw;
+  line-height: 1.7;
+  text-align: justify;
+}
+
+.tablee{
+  color: white;
+  font-size: 16px;
+  margin-left: 5vw;
+  line-height: 1.7;
+}
+
+.tdd {
+  padding: 0px 100px 2px 0px;
+  color: #7cced4;
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+.tdd :hover{
+  color: #c9f0f3;
+}
+
+.lii{
+  color:#7cced4;
+}
+
+ul{
+  margin: 0;
+}
+
+.footer {
+  height: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(189, 208, 211);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+}
+
+h4{
+  margin: 0px;
 }
