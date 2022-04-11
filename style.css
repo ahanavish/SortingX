@@ -84,6 +84,7 @@ body {
   position: relative;
   margin: 0 auto;
 }
+
 .bar {
   width: 25px;
   position: absolute;
@@ -92,6 +93,7 @@ body {
   background-color: #97c0c5;
   transition: 1ms ease;
 }
+
 .bar__id {
   position: absolute;
   top: -24px;
@@ -109,6 +111,7 @@ body {
   margin-top: 1vw;
   margin-right: 1vw;
 }
+
 .start {
   padding: 12px;
   background-color: #124d53;
@@ -118,12 +121,13 @@ body {
   border: white;
   margin-left: 1vw;
 }
+
 #ele {
   text-align: center;
   height: 35px;
 }
 
-.landingText{
+.landingText {
   padding: 14px;
   color: white;
   font-size: 17px;
@@ -135,14 +139,14 @@ body {
   text-align: justify;
 }
 
-.landingImage{
+.landingImage {
   padding: 15px;
   margin-top: 10vw;
   margin-left: -35vw;
   margin-right: 4vw;
 }
 
-.landingPara{
+.landingPara {
   padding: 10px;
   color: white;
   font-size: 15px;
@@ -153,7 +157,7 @@ body {
   text-align: justify;
 }
 
-.tablee{
+.tablee {
   color: white;
   font-size: 16px;
   margin-left: 5vw;
@@ -161,21 +165,21 @@ body {
 }
 
 .tdd {
-  padding: 0px 100px 2px 0px;
+  padding: 0px 150px 5px 50px;
   color: #7cced4;
   font-size: 20px;
   margin-top: -10px;
 }
 
-.tdd :hover{
+.tdd :hover {
   color: #c9f0f3;
 }
 
-.lii{
-  color:#7cced4;
+.lii {
+  color: #7cced4;
 }
 
-ul{
+ul {
   margin: 0;
 }
 
@@ -189,6 +193,6 @@ ul{
   padding-bottom: 20px;
 }
 
-h4{
+h4 {
   margin: 0px;
 }
